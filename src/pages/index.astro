@@ -9,10 +9,12 @@ import Layout from "../layouts/Layout.astro";
 >
     <section>
         <h1 class="title">&lt;MexAnCode/&gt; Antonio Mex</h1>
-        <p class="description">
-            Desarrollador web y de soluciones en Epicor, apasionado por la
-            tecnología y por aprender nuevas cosas.
-        </p>
+        <div class="description">
+            Más de 3 años de experiencia en el desarrollo de software,
+            desarrollo web y soluciones ERP con Epicor. Apasionado por la
+            tecnología y el aprendizaje constante. Egresado de Ingeniería en
+            Sistemas Computacionales.
+        </div>
 
         <div class="contact">
             <h2>Contacto</h2>
@@ -45,9 +47,37 @@ import Layout from "../layouts/Layout.astro";
                 <h3>Rodai - Developer Engineer</h3>
                 <span class="duration">2021 - 2024</span>
                 <p>
-                    Encargado del área de desarrollo en ERP especializado en
-                    Epicor, desarrollo web para la plataforma "Rodai Notify" y
-                    migración de apartados móviles con React.
+                    En tres años, desarrollé soluciones ERP para Epicor en C#,
+                    optimizando personalizaciones y coordinando actividades de
+                    desarrollo. Participé en la creación de la aplicación
+                    interna Rodai Notify, mejorando la experiencia de usuario y
+                    funciones. También trabajé en un módulo de calendarios y
+                    gestioné la migración de una aplicación utilizando mejores
+                    prácticas en React Native.
+                </p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="job">
+                <h3>Centro de Investigación de Matemáticas</h3>
+                <span class="duration">2019 - 2020</span>
+                <p>
+                    Implementé un algoritmo de visión computacional en C++ para
+                    el seguimiento de objetos y propuse mejoras para optimizar
+                    su rendimiento, contribuyendo al avance del proyecto.
+                </p>
+            </div>
+        </div>
+        <div class="experience">
+            <div class="job">
+                <h3>Canieti (Células de Innovación)</h3>
+                <span class="duration">2017 - 2018</span>
+                <p>
+                    Durante siete meses, desarrollé una aplicación web para
+                    visualizar mapas de calor de enfermedades como diabetes y
+                    colesterol. Implementé prácticas de desarrollo efectivas y
+                    aporté soluciones innovadoras para optimizar tanto el
+                    front-end como el back-end del proyecto.
                 </p>
             </div>
         </div>
@@ -58,113 +88,146 @@ import Layout from "../layouts/Layout.astro";
         <div class="skills">
             <div>
                 <h3>Desarrollo Web:</h3>
-                <p class="code">
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_HTML5.webp"
-                        alt="logo HTML5"
-                        title="HTML5"
-                    />
-                    <img
-                        class="p-logo"
-                        src="/img/logo_css3.webp"
-                        alt="logo CSS3"
-                        title="CSS3"
-                    />
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_js.webp"
-                        alt="logo JavaScript"
-                        title="JavaScript"
-                    />
-                    <img
-                        width={70}
-                        height={45}
-                        class="p-logo"
-                        src="/img/logo_php.webp"
-                        alt="logo PHP"
-                        title="PHP"
-                    />
-                </p>
+                <div class="code">
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_HTML5.webp"
+                            alt="logo HTML5"
+                            title="HTML5"
+                        />
+                        <span class="logo-name">HTML5</span>
+                    </span>
+                    <span class="logo-container">
+                        <img
+                            class="p-logo"
+                            src="/img/logo_css3.webp"
+                            alt="logo CSS3"
+                            title="CSS3"
+                        />
+                        <span class="logo-name">CSS3</span>
+                    </span>
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_js.webp"
+                            alt="logo JavaScript"
+                            title="JavaScript"
+                        />
+                        <span class="logo-name">JavaScript</span>
+                    </span>
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="45"
+                            class="p-logo"
+                            src="/img/logo_php.webp"
+                            alt="logo PHP"
+                            title="PHP"
+                        />
+                        <span class="logo-name">PHP</span>
+                    </span>
+                </div>
             </div>
             <div>
                 <h3>Frameworks:</h3>
                 <p class="code">
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_laravel.webp"
-                        alt="logo Laravel"
-                        title="Laravel"
-                    />
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_react.webp"
-                        alt="logo React"
-                        title="React"
-                    />
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_laravel.webp"
+                            alt="logo Laravel"
+                            title="Laravel"
+                        />
+                        <span class="logo-name">Laravel</span>
+                    </span>
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_react.webp"
+                            alt="logo React"
+                            title="React"
+                        />
+                        <span class="logo-name">React</span>
+                    </span>
                 </p>
             </div>
             <div>
                 <h3>ERP:</h3>
                 <p class="code">
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_epicor.webp"
-                        alt="logo Epicor"
-                        title="Epicor"
-                    />
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_epicor.webp"
+                            alt="logo Epicor"
+                            title="Epicor"
+                        />
+                        <span class="logo-name">Epicor</span>
+                    </span>
                 </p>
             </div>
             <div>
                 <h3>Bases de Datos:</h3>
                 <p class="code">
-                    <img
-                        width={70}
-                        height={45}
-                        class="p-logo"
-                        src="/img/logo_mysql.webp"
-                        alt="logo MySQL"
-                        title="MySQL"
-                    />
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="45"
+                            class="p-logo"
+                            src="/img/logo_mysql.webp"
+                            alt="logo MySQL"
+                            title="MySQL"
+                        />
+                        <span class="logo-name">MySQL</span>
+                    </span>
                 </p>
             </div>
             <div>
                 <h3>Herramientas y Tecnologías:</h3>
                 <p class="code">
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_vs.webp"
-                        alt="logo VS Code"
-                        title="VS Code"
-                    />
-                    <img
-                        width={70}
-                        height={40}
-                        class="p-logo"
-                        src="/img/logo_git.png"
-                        alt="logo Git"
-                        title="Git"
-                    />
-                    <img
-                        width={70}
-                        height={70}
-                        class="p-logo"
-                        src="/img/logo_postman.webp"
-                        alt="logo Postman"
-                        title="Postman"
-                    />
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_vs.webp"
+                            alt="logo VS Code"
+                            title="VS Code"
+                        />
+                        <span class="logo-name">VS Code</span>
+                    </span>
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="40"
+                            class="p-logo"
+                            src="/img/logo_git.png"
+                            alt="logo Git"
+                            title="Git"
+                        />
+                        <span class="logo-name">Git</span>
+                    </span>
+                    <span class="logo-container">
+                        <img
+                            width="70"
+                            height="70"
+                            class="p-logo"
+                            src="/img/logo_postman.webp"
+                            alt="logo Postman"
+                            title="Postman"
+                        />
+                        <span class="logo-name">Postman</span>
+                    </span>
                 </p>
             </div>
         </div>
@@ -175,7 +238,7 @@ import Layout from "../layouts/Layout.astro";
 
         <div class="works">
             <div class="project">
-                <a href="https://secsa.pages.dev/" target="_blank">
+                <a href="https://secsa.solutions" target="_blank">
                     <img
                         width={70}
                         height={70}
@@ -184,7 +247,10 @@ import Layout from "../layouts/Layout.astro";
                         title="SECSA"
                     />
                     <div class="overlay">
-                        <div class="text">SECSA</div>
+                        <div class="text">
+                            Landing page para presentar la empresa y mostrar sus
+                            servicios
+                        </div>
                     </div>
                 </a>
                 <p class="description">
@@ -192,27 +258,31 @@ import Layout from "../layouts/Layout.astro";
                 </p>
             </div>
             <div class="project">
-                <a href="https://talesforall.mexancode.com/" target="_blank">
+                <a href="https://krohmcapital.com.mx/" target="_blank">
                     <img
                         width={70}
                         height={70}
-                        src="/img/proyecto_TalesForAll.webp"
+                        src="/img/proyecto_KrohmCapital.png"
                         alt="Captura del proyecto Tales For All"
                         title="Tales For All"
                     />
                     <div class="overlay">
-                        <div class="text">Tales For All</div>
+                        <div class="text">
+                            Plataforma web para administrar venta de productos,
+                            post y servicios
+                        </div>
                     </div>
                 </a>
-                <p class="description">
-                    Plataforma para crear y compartir cuentos generados con IA.
-                </p>
+                <p class="description">Krohm Capital</p>
             </div>
         </div>
     </section>
 </Layout>
 
 <style>
+    * {
+        box-sizing: border-box;
+    }
     .title {
         text-align: center;
         color: #fff;
@@ -280,35 +350,61 @@ import Layout from "../layouts/Layout.astro";
         margin: 1rem auto;
     }
 
-    .skills div {
-        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c330.956C70.616%2c327.133%2c143.729%2c353.325%2c207.716%2c323.212C275.109%2c291.496%2c328.943%2c232.028%2c356.905%2c162.993C384.329%2c95.287%2c371.579%2c20.357%2c359.573%2c-51.699C347.804%2c-122.332%2c336.351%2c-196.729%2c288.145%2c-249.679C240.393%2c-302.13%2c165.795%2c-313.401%2c99.167%2c-337.733C27.574%2c-363.878%2c-43.984%2c-420.288%2c-116.726%2c-397.533C-189.474%2c-374.776%2c-213.699%2c-285.849%2c-260.076%2c-225.357C-303.23%2c-169.069%2c-359.413%2c-122.564%2c-379.649%2c-54.585C-401.733%2c19.6%2c-406.841%2c100.837%2c-378.635%2c172.917C-349.703%2c246.851%2c-295.958%2c315.933%2c-222.691%2c346.514C-152.601%2c375.769%2c-75.839%2c335.062%2c0%2c330.956' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 995.617C1530.703 985.566 1625.363 1015.991 1707.531 976.287 1794.32 934.351 1854.713 854.808 1903.48 771.664 1956.355 681.515 2013.762 583.091 1998.824 479.653 1983.888 376.231 1910.362 286.535 1824.763 226.601 1747.838 172.74 1644.283 197.49200000000002 1554.866 168.803 1462.124 139.048 1385.644 29.190000000000055 1291.906 55.63900000000001 1198.371 82.031 1195.372 219.64 1127.649 289.346 1053.644 365.517 907.784 376.97 880.1 479.499 852.97 579.978 957.779 665.81 1000.356 760.779 1043.305 856.576 1038.843 990.659 1131.444 1040.123 1224.999 1090.096 1334.58 1007.298 1440 995.617' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
-        border-radius: 10px;
-        padding: 0.5rem;
-        margin: 1rem 0;
+    .section {
+        background-color: #1b1b2b; /* Fondo oscuro */
+        padding: 2rem 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
     }
+
+    .sub-title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1.5rem;
+        color: #e0e0e0; /* Color claro para el título */
+    }
+
     .code {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
-    .code img {
-        min-width: 60px;
-        width: 75px;
-        margin: 0.5rem;
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 1rem;
+        justify-content: space-between;
+        background-color: #2c2c3f; /* Fondo más claro para los logos */
+        border-radius: 8px;
+        transition:
+            transform 0.3s,
+            box-shadow 0.3s; /* Transiciones suaves */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .logo-container:hover {
+        transform: translateY(-5px); /* Elevación al pasar el mouse */
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7); /* Sombra más fuerte al hover */
     }
 
     .p-logo {
-        background-color: #fff;
-        padding: 0.3rem 0.5rem;
-        border-radius: 10px;
+        width: 50px;
+        height: auto;
+    }
+
+    .logo-name {
+        text-align: center;
+        margin-top: 0.5rem; /* Espacio entre logo y nombre */
+        font-size: 1rem; /* Tamaño de fuente */
+        color: #d1d1d1; /* Color de texto del nombre más suave */
     }
 
     /**Projects */
     .projects {
         padding: 20px;
         border-radius: 8px;
-
-        max-width: 900px;
         margin: 0 auto;
         font-family: Arial, sans-serif;
     }
@@ -319,6 +415,12 @@ import Layout from "../layouts/Layout.astro";
         margin-bottom: 30px;
     }
 
+    .skills div {
+        padding: 1rem;
+        margin-bottom: 1rem;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M0%2c330.956C70.616%2c327.133%2c143.729%2c353.325%2c207.716%2c323.212C275.109%2c291.496%2c328.943%2c232.028%2c356.905%2c162.993C384.329%2c95.287%2c371.579%2c20.357%2c359.573%2c-51.699C347.804%2c-122.332%2c336.351%2c-196.729%2c288.145%2c-249.679C240.393%2c-302.13%2c165.795%2c-313.401%2c99.167%2c-337.733C27.574%2c-363.878%2c-43.984%2c-420.288%2c-116.726%2c-397.533C-189.474%2c-374.776%2c-213.699%2c-285.849%2c-260.076%2c-225.357C-303.23%2c-169.069%2c-359.413%2c-122.564%2c-379.649%2c-54.585C-401.733%2c19.6%2c-406.841%2c100.837%2c-378.635%2c172.917C-349.703%2c246.851%2c-295.958%2c315.933%2c-222.691%2c346.514C-152.601%2c375.769%2c-75.839%2c335.062%2c0%2c330.956' fill='%230b2239'%3e%3c/path%3e%3cpath d='M1440 995.617C1530.703 985.566 1625.363 1015.991 1707.531 976.287 1794.32 934.351 1854.713 854.808 1903.48 771.664 1956.355 681.515 2013.762 583.091 1998.824 479.653 1983.888 376.231 1910.362 286.535 1824.763 226.601 1747.838 172.74 1644.283 197.49200000000002 1554.866 168.803 1462.124 139.048 1385.644 29.190000000000055 1291.906 55.63900000000001 1198.371 82.031 1195.372 219.64 1127.649 289.346 1053.644 365.517 907.784 376.97 880.1 479.499 852.97 579.978 957.779 665.81 1000.356 760.779 1043.305 856.576 1038.843 990.659 1131.444 1040.123 1224.999 1090.096 1334.58 1007.298 1440 995.617' fill='%23113255'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+        border-radius: 10px;
+    }
     .works {
         display: flex;
         flex-wrap: wrap;
@@ -357,7 +459,7 @@ import Layout from "../layouts/Layout.astro";
         width: 100%;
         opacity: 0;
         transition: 0.5s ease;
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.705);
         border-radius: 8px;
     }
 
@@ -366,8 +468,10 @@ import Layout from "../layouts/Layout.astro";
     }
 
     .text {
+        padding: 1rem;
+        width: 100%;
         color: white;
-        font-size: 1.5em;
+        font-size: 14pt;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -382,9 +486,10 @@ import Layout from "../layouts/Layout.astro";
         font-size: 1em;
     }
     @media (min-width: 560px) {
-        .code img {
-            width: 75px;
-            height: auto;
+        .code {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
         }
     }
     @media (min-width: 768px) {
@@ -400,11 +505,13 @@ import Layout from "../layouts/Layout.astro";
         }
         section {
             padding: 3rem;
-            width: 700px;
+            max-width: 900px;
         }
-        .skills {
-            margin: 0 auto;
-            width: 600px;
+
+        .skills div {
+            padding: 1.5rem;
+            margin: 1 auto;
+            width: 100%;
         }
 
         .code {
@@ -422,7 +529,7 @@ import Layout from "../layouts/Layout.astro";
         margin: 2rem auto;
         border-radius: 8px;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        max-width: 800px;
+        max-width: 900px;
     }
 
     .experience .job {
